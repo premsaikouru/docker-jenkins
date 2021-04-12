@@ -4,7 +4,7 @@ node {
 
         checkout scm
     }
-    stage('Build image") {
+    stage("Build image") {
         
 	app=docker.build("premsaikouru/docker-jenkins")
     }
